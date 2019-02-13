@@ -14,7 +14,13 @@ var qs = [
   'question': 'What was Oscar the Grouch\'s original color?',
   'answers': ['Orange', 'Red', 'Yello'],
   'answer_index': 1
-}, {
+},
+{
+  'question': 'In which year India won the world cup',
+  'answers': ['2011', '2007', '2003'],
+  'answer_index': 1
+},
+{
   question: "Who wrote Johnny Cash's song 'A Boy Named Sue'?",
   answers: ['Rosanne Cash', 'Dolly Parton', 'Shel Silverstein'],
   answer_index: 3
