@@ -1,4 +1,5 @@
 var pg = require('pg');
+pg.defaults.ssl = true;
 
 module.exports = function(bookshelf, topic_callbacks) {
   pg.connect(bookshelf.knex.client.connectionSettings, function(err, client) {
