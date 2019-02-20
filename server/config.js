@@ -7,7 +7,7 @@ exports.SQL_DEBUG = false;
 
 exports.knex_options = {
   client: exports.db_client,
-  connection: exports.db_url,
+  connection: exports.db_url + '?sslmode=require',
   debug: exports.SQL_DEBUG
 };
 

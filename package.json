@@ -10,16 +10,17 @@
     "express": "^4.4.0",
     "knex": "^0.6.22",
     "method-override": "^2.2.0",
+    "newrelic": "^5.5.0",
     "nforce": "~0.7.0",
     "node-uuid": "^1.4.1",
-    "pg": "^3.4.4",
+    "pg": "^6.1.0",
     "socket.io": "^1.1.0",
     "sqlite3": "^3.0.0",
     "validator": "~3.5.0",
     "websocket": "^1.0.8"
   },
   "engines": {
-    "node": "0.10.35"
+    "node": "9.11.1"
   },
   "devDependencies": {},
   "scripts": {
