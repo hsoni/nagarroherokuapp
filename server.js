@@ -1,3 +1,4 @@
+require('newrelic');
 var http           = require('http'),
     config         = require('./server/config'),
     express        = require('express'),
@@ -10,8 +11,7 @@ var http           = require('http'),
     notifier       = require('./server/notifier'),
     restful        = require('./server/bookshelf_rest'),
     auth           = require('./server/auth')(models),
-    force          = require('./server/force'),
-    newrelic       = require('newrelic')
+    force          = require('./server/force')
     ;
 
 /********************* APP SETUP *****************************/
